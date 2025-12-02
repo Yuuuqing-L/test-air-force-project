@@ -1,0 +1,15 @@
+version: 2
+    sources:
+    
+    - name: weather_raw
+      schema: air_force
+      tables:
+        - name: weather_raw
+        
+    
+    - name: flights_all
+      schema: air_force
+      tables:
+        - name: flights
+        - name: airports
+        - name: regions
